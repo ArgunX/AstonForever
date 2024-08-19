@@ -1,7 +1,7 @@
 package model;
 
-public class Hero {
-    private String name;
+public abstract class Hero {
+    private final String name;
 
     public Hero(String name) {
         this.name = name;
@@ -10,9 +10,7 @@ public class Hero {
     public String getName() {
         return name;
     }
-    public void attackEnemy(Enemy enemy){
+    public abstract void attackEnemy(Enemy enemy);
 
-        System.out.println("Герой" + " " + name + " " + "атакует врага");
-        enemy.takeDamage(0);
-    }
+
 }
