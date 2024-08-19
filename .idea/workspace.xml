@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f717b3af-754e-4e28-9216-0d1fd6944384" name="Changes" comment="выполнен пункт 4 задания">
-      <change afterPath="$PROJECT_DIR$/src/model/Mortal.java" afterDir="false" />
+    <list default="true" id="f717b3af-754e-4e28-9216-0d1fd6944384" name="Changes" comment="выполнен пункт 5 задания">
+      <change afterPath="$PROJECT_DIR$/src/BattleGround.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrainingGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrainingGround.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Enemy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +55,14 @@
     "onboarding.tips.debug.path": "/home/andrey/Aston/RPG/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BattleGround">
+    <configuration name="BattleGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BattleGround" />
+      <module name="RPG" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrainingGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TrainingGround" />
       <module name="RPG" />
@@ -66,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BattleGround" />
         <item itemvalue="Application.TrainingGround" />
       </list>
     </recent_temporary>
@@ -111,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724052523099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="выполнен пункт 5 задания">
+      <option name="closed" value="true" />
+      <created>1724052929841</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724052929841</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +145,7 @@
     <MESSAGE value="выполнен пункт 2 задания" />
     <MESSAGE value="выполнен пункт 3 задания" />
     <MESSAGE value="выполнен пункт 4 задания" />
-    <option name="LAST_COMMIT_MESSAGE" value="выполнен пункт 4 задания" />
+    <MESSAGE value="выполнен пункт 5 задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="выполнен пункт 5 задания" />
   </component>
 </project>
