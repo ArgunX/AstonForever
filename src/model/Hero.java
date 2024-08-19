@@ -10,7 +10,9 @@ public class Hero {
     public String getName() {
         return name;
     }
-    public void attackEnemy(){
+    public void attackEnemy(Enemy enemy){
+
         System.out.println("Герой" + " " + name + " " + "атакует врага");
+        enemy.takeDamage(0);
     }
 }

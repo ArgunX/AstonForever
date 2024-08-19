@@ -1,17 +1,15 @@
-import model.Archer;
-import model.Hero;
-import model.Mage;
-import model.Warrior;
+import model.*;
 
 public class TrainingGround {
     public static void main(String[] args) {
         Hero hero = new Hero("ТОР");
-        hero.attackEnemy();
+        Enemy enemy = new Enemy(100);
+        hero.attackEnemy(enemy);
         Mage mage = new Mage("Гендальф");
-        mage.attackEnemy();
+        mage.attackEnemy(enemy);
         Archer archer = new Archer("Леголас");
-        archer.attackEnemy();
+        archer.attackEnemy(enemy);
         Warrior warrior = new Warrior("Арагорн");
-        warrior.attackEnemy();
+        warrior.attackEnemy(enemy);
     }
 }
