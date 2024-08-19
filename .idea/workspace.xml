@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f717b3af-754e-4e28-9216-0d1fd6944384" name="Changes" comment="выполнен пункт 6 задания">
-      <change afterPath="$PROJECT_DIR$/src/Controller/LogicBattle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/ViewBattleGround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Mefisto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Robber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Skills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Zombie.java" afterDir="false" />
+    <list default="true" id="f717b3af-754e-4e28-9216-0d1fd6944384" name="Changes" comment="выполнен пункт 7 задания">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BattleGround.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrainingGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrainingGround.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +52,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/andrey/Aston/RPG/src/Main.java"
+    "onboarding.tips.debug.path": "/home/andrey/Aston/RPG/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TrainingGround">
-    <configuration name="TrainingGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrainingGround" />
+  <component name="RunManager" selected="Application.BattleGround">
+    <configuration name="BattleGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BattleGround" />
       <module name="RPG" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,7 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrainingGround" />
+        <item itemvalue="Application.BattleGround" />
         <item itemvalue="Application.ViewBattleGround" />
       </list>
     </recent_temporary>
@@ -155,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724053452464</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="выполнен пункт 7 задания">
+      <option name="closed" value="true" />
+      <created>1724082768426</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724082768426</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +172,7 @@
     <MESSAGE value="выполнен пункт 4 задания" />
     <MESSAGE value="выполнен пункт 5 задания" />
     <MESSAGE value="выполнен пункт 6 задания" />
-    <option name="LAST_COMMIT_MESSAGE" value="выполнен пункт 6 задания" />
+    <MESSAGE value="выполнен пункт 7 задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="выполнен пункт 7 задания" />
   </component>
 </project>
