@@ -1,6 +1,6 @@
 package model;
 
-public class Enemy implements Mortal {
+public abstract class Enemy implements Mortal,Skills {
     private int health;
 
     public Enemy(int health) {
@@ -14,10 +14,9 @@ public class Enemy implements Mortal {
     public void setHealth(int health) {
         this.health = health;
     }
-    public void takeDamage(int damage){
-        health = getHealth()- damage;
-        System.out.println("Здоровье врага" + " " + health);
-    }
+
+    public abstract void takeDamage(int damage);
+    public abstract void attackHero(Hero hero);
 
     @Override
     public boolean isAlive() {
